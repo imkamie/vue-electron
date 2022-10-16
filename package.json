@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "main.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "electron:start": "electron .",
     "pretty": "npx prettier --write \"./**/*.{ts,tsx,vue}\""
   },
   "dependencies": {
